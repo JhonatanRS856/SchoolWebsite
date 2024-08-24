@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.container-fluid{
+    @apply w-full;
+}
+
+.containerM{
+    @apply w-full max-w-[1050px] mx-auto px-4;
+}
+
+.titulo-section{
+    @apply text-3xl text-center font-bold lg:text-4xl;
+}
+
+.img-profile{
+    @apply w-28 h-28 rounded-full overflow-hidden border-4 border-color-primary shadow-[0_3px_4px] shadow-[rgb(0,0,0,.4)];
+}
+
+.slide-message{
+    @apply flex flex-col gap-8 max-w-[100%];
+}
+
+.messageDiv{
+    @apply p-4 bg-color-primary rounded-xl relative;
+}
